@@ -1,0 +1,15 @@
+[project]
+name = "dino-doggo"
+version = "0.1.0"
+description = "If my dog had the ability to write code, this could be the result. This project helps me to understand Github actions, Python package development & release and automation better."
+authors = [
+    {name = "Anton Bauer", email = "<>"},
+]
+dependencies = []
+requires-python = ">=3.9, <3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
